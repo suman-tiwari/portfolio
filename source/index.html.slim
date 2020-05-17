@@ -1,19 +1,51 @@
 ---
-title: Welcome to Middleman
+title: Suman Tiwari
 ---
 html
   head
-
-    svg.middleman-logo aria-labelledby="middleman-logo__title" role="img" viewbox=("0 0 400 340") xmlns="http://www.w3.org/2000/svg"
-    title#middleman-logo__title Suman-Portfolio
-    path.middleman-logo__top-left-bar d=("M0 40L200 0v30L0 60z") fill-opacity=".45" /
-    path.middleman-logo__top-right-bar d=("M200 0l200 40v20L200 30z") fill="#fff" /
-    path.middleman-logo__left-m d=("M0 78v184l45 5V152l45 83 47-83v129l53 7V52l-57 8-43 83-43-70z") fill-opacity=".45" /
-    path.middleman-logo__right-m d=("M400 78v184l-45 5V152l-45 83-47-83v129l-53 7V52l57 8 43 83 43-70z") fill="#fff" /
-    path.middleman-logo__bottom-left-bar d=("M0 300l200 40v-30L0 280z") fill-opacity=".45" /
-    path.middleman-logo__bottom-right-bar d=("M200 340l200-40v-20l-200 30z") fill="#fff" /
-
+    meta charset="utf-8" /
+    meta content="width=device-width, initial-scale=1.0" name="viewport" /
+    title Personal Bootstrap Template
+    meta content="" name="descriptison" /
+    meta content="" name="keywords" /
+    /! Favicons
+    link href="/images/me.jpg" rel="icon" /
+    / link href="/images/apple-touch-icon.png" rel="apple-touch-icon" /
+    /! Google Fonts
+    link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" /
+    /! Vendor CSS Files
+    link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" /
+    link href="/vendor/icofont/icofont.min.css" rel="stylesheet" /
+    link href="/vendor/remixicon/remixicon.css" rel="stylesheet" /
+    link href="/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" /
+    link href="/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" /
+    link href="/vendor/venobox/venobox.css" rel="stylesheet" /
+    /! Template Main CSS File
+    link href="/stylesheets/css/style.css" rel="stylesheet" /
   body
-    .col-12
-      h1 Middleman is Running
-      = link_to "Read Documentation", "https://middlemanapp.com/basics/templating_language/", target: "_blank"
+    = partial 'index/header'
+    = partial 'index/about_me'
+    = partial 'index/resume'
+    = partial 'index/services'
+    = partial 'index/portfolio'
+    = partial 'index/contact'
+
+    .credits
+      /! All the links in the footer should remain intact.
+      /! You can delete the links only if you purchased the pro version.
+      /! Licensing information: https://bootstrapmade.com/license/
+      /! Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+      | Designed by
+      a href="https://bootstrapmade.com/"  BootstrapMade
+    /! Vendor JS Files
+    script src="/vendor/jquery/jquery.min.js"
+    script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"
+    script src="/vendor/jquery.easing/jquery.easing.min.js"
+    script src="/vendor/php-email-form/validate.js"
+    script src="/vendor/waypoints/jquery.waypoints.min.js"
+    script src="/vendor/counterup/counterup.min.js"
+    script src="/vendor/owl.carousel/owl.carousel.min.js"
+    script src="/vendor/isotope-layout/isotope.pkgd.min.js"
+    script src="/vendor/venobox/venobox.min.js"
+    /! Template Main JS File
+    script src="/javascripts/main.js"
