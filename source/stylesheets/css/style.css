@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h1 {
   font-size: 48px;
-  margin: 0;
+  margin: -1rem;
   padding: 0;
   line-height: 1;
   font-weight: 700;
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu ul {
   display: flex;
-  margin: 0;
+  margin-bottom: -24px;
   padding: 0;
   list-style: none;
 }
